@@ -1,0 +1,2 @@
+-- Phase 3: Create Analytics Views/Tables
+-- TODO: Add your analytics creation queries here

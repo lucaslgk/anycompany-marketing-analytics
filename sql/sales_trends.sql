@@ -1,0 +1,2 @@
+-- Sales Trends Analysis
+-- TODO: Add your sales trends queries here
