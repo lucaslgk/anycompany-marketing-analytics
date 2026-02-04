@@ -25,8 +25,6 @@ SELECT
     DATE_TRUNC('month', mc.start_date) AS mois_debut,
 
     mc.budget / NULLIF(mc.reach, 0) AS budget_per_reach, -- coût par personne touchée
-    mc.reach * mc.conversion_rate AS conversions_estimees,
-    mc.budget / NULLIF(mc.reach * mc.conversion_rate, 0) AS cout_par_conversion,
 
     icr.nb_clients AS nb_clients_region,
     icr.revenu_moyen AS revenu_moyen_region,
