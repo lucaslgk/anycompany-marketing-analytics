@@ -8,7 +8,7 @@ On a testé deux approches ML pour optimiser la stratégie marketing de AnyCompa
 
 **Objectif** : atteindre 32% de part de marché avec -30% de budget marketing.
 
-## Ce qu'on a fait
+## Réalisations
 
 ### 1. Tentative de prédiction du taux de conversion
 
