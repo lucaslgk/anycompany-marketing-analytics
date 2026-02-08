@@ -36,8 +36,8 @@ Ce projet analyse 11 tables de données pour identifier les leviers d'optimisati
 ```
 anycompany-marketing-analytics/
 ├── sql/
-│   ├── load_data.sql           # Chargement S3 → Snowflake BRONZE
-│   ├── clean_data.sql          # Nettoyage BRONZE → SILVER
+│   ├── load_data.sql           # Chargement S3 Snowflake BRONZE
+│   ├── clean_data.sql          # Nettoyage BRONZE, passage en SILVER
 │   ├── create_analytics.sql    # Tables analytiques enrichies
 │   └── sales_trends.sql        # Analyses ventes et tendances
 ├── streamlit/
@@ -59,7 +59,7 @@ anycompany-marketing-analytics/
 ## Phases du projet
 
 ### Phase 1 : Data Engineering
-- **Architecture medallion** : BRONZE (données brutes) → SILVER (données nettoyées) → ANALYTICS (tables enrichies)
+- **Architecture medallion** : BRONZE (données brutes), SILVER (données nettoyées), ANALYTICS (tables enrichies)
 - **11 tables chargées depuis S3** : customers, campaigns, transactions, promotions, etc.
 - **Nettoyage** : gestion des doublons, valeurs manquantes, cohérence dates
 
