@@ -2,7 +2,7 @@
 
 ## Contexte
 
-On a testé deux approches ML pour optimiser la stratégie marketing de AnyCompany avec 4861 campagnes historiques (de 2010 à 2017) :
+Nous avons testé deux approches ML pour optimiser la stratégie marketing de AnyCompany avec 4861 campagnes historiques (de 2010 à 2017) :
 - Prédire le taux de conversion des futures campagnes
 - Identifier différents types de campagnes pour mieux allouer le budget
 
