@@ -131,6 +131,9 @@ pip install -r streamlit/requirements.txt
    - `sql/clean_data.sql` (nettoyer données)
    - `sql/create_analytics.sql` (créer tables analytiques)
    - `sql/sales_trends.sql` (analyses exploratoires)
+     
+- Focus ML : Executer la requète ci-dessous dans Snowflake pour obtenir le fichier .csv nécessaire à l'analyse ML
+   - `ml/ml_campaign.sql` → `data/ml/ml_campaign_raw.csv`
 
 2. Exporter les données pour Streamlit :
    - `ANALYTICS.ventes_enrichies` → `data/analytics/ventes_enrichies.csv`
@@ -166,7 +169,6 @@ jupyter notebook ml/02_campaigns_clustering.ipynb
 - **Machine Learning** : scikit-learn 1.3+ (K-Means, StandardScaler, PCA, t-SNE)
 - **Visualisation** : Plotly, Matplotlib, Seaborn
 - **Dashboard** : Streamlit 1.28+
-- **Connexion DB** : snowflake-connector-python
 
 ### Outils
 - **Notebooks** : Jupyter Lab
@@ -176,7 +178,6 @@ jupyter notebook ml/02_campaigns_clustering.ipynb
 ### Méthodes ML
 - Clustering K-Means (5 clusters, Elbow Method)
 - Réduction dimensionnelle (PCA, t-SNE)
-- Évaluation : Silhouette Score, Calinski-Harabasz, Davies-Bouldin
 
 ---
 
