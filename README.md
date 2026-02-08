@@ -11,7 +11,7 @@
 
 ---
 
-## 📑 Table des matières
+## Table des matières
 
 - [Contexte du projet](#contexte-du-projet)
 - [Architecture du projet](#️architecture-du-projet)
@@ -27,7 +27,7 @@
 
 AnyCompany Food & Beverage fait face à une **baisse de sa part de marché de 28% à 22%** en 8 mois, avec une **réduction de 30% du budget marketing**. L'objectif est d'atteindre **32% de part de marché d'ici Q4 2025** grâce à une stratégie data-driven.
 
-Ce projet analyse 11 tables de données (ventes, marketing, clients, logistique) pour identifier les leviers d'optimisation budgétaire et améliorer l'efficacité des campagnes marketing.
+Ce projet analyse 11 tables de données pour identifier les leviers d'optimisation budgétaire et améliorer l'efficacité des campagnes marketing.
 
 ---
 
